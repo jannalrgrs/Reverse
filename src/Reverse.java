@@ -11,13 +11,12 @@ public class Reverse {
 		int number = input.nextInt();
 		int rev = 0;
 		while (number > 0) {  		 /* The while loop seems more convenient in
-								  		situations where the input integer's size is unknown, versus for loops*/
-								  
-								 
-
+								  	  *situations where the input integer's size is unknown,
+								  	  * versus for loops.
+								  	  */
+			
 			rev = rev * 10 + (number) % 10;
-			number = number / 10;	/* Information stored in variable data type (int) will cause number 
-									   *to be rounded down to a whole number instead of a decimal*/
+			number = number / 10;	 // Number result will always be a whole number, due to the data type int. 
 																			
 		}
 
