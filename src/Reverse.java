@@ -6,7 +6,7 @@ public class Reverse {
 		Scanner input = new Scanner(System.in);
 
 		System.out.println("Enter Number to Reverse: ");
-		System.out.println("======================="); /// line isn't necessary, but adds a visual element
+		System.out.println("======================="); // line isn't necessary, but adds a visual element
 							
 		int number = input.nextInt();
 		int rev = 0;
@@ -16,14 +16,14 @@ public class Reverse {
 								 
 
 			rev = rev * 10 + (number) % 10;
-			number = number / 10;		/* Information stored in variable data type (int) will cause number 
-											to be rounded down to a whole number instead of a decimal*/
+			number = number / 10;	/* Information stored in variable data type (int) will cause number 
+									   *to be rounded down to a whole number instead of a decimal*/
 																			
 		}
 
 		System.out.println(rev);   /* Inside curly brackets of while loop, System.out.println(rev)
-		 						      is executed as many times as the loop runs. Slowly builds to the
-		 						      final reversed number*/									 	
+		 						      *is executed as many times as the loop runs. Slowly builds to the
+		 						      *final reversed number*/									 	
 
 	}
 	
