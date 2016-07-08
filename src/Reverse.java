@@ -16,9 +16,10 @@ public class Reverse {
 			rev = rev * 10 + (number) % 10;
 			number = (number / 10);
 		
-	
-			System.out.println(rev);
 		}
+//Adjust System.out.println in to receive only the final print out, instead of 1/loop.
+			System.out.println(rev);
+		
 	}
 	
 }
